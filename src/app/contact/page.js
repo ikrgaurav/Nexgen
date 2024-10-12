@@ -1,14 +1,16 @@
 // src/app/about.js
 "use client";
-import Navbar from "../../Navbar";
-import AboutUs from "../../AboutUs";
+import Navbar from "../Navbar";
+import ContactUs from "./ContactUs";
+import Footer from "../Footer";
 
 export default function AboutPage(){
   return (
     <div>
       <Navbar />
-      <Home />
-      <AboutUs />
+      <ContactUs />
+      <Footer/>
+      
       <div>
         {/* Other content if needed */}
       </div>
